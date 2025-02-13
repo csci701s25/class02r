@@ -237,13 +237,13 @@ jobs:
       - name: setup Pages
         uses: actions/configure-pages@v3
       - name: upload site
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           # Upload everything in the repository
           path: '.'
       - name: deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
 ```
 
 The most important piece here is the `path` in the `upload site` step - the `.` indicates that the entire root directory of the repository will be available at the static GitHub Pages site for our repository, which is https://csci701s25.github.io/class02r/.
