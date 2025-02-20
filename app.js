@@ -13,8 +13,8 @@ const getColor2 = function () {
 };
 
 const getColor3 = function () {
-  let color = [0, 255, 0];
-  return color;
+  const pink = [255, 192, 203];
+  return pink;
 };
 
 const getColor4 = function () {
