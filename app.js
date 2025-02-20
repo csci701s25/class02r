@@ -8,17 +8,17 @@ const getColor1 = function () {
 };
 
 const getColor2 = function () {
-  let color = [256, 0, 0];
+  let color = [32, 50, 70];
   return color;
 };
 
 const getColor3 = function () {
-  let color = [0, 256, 0];
+  let color = [0, 255, 0];
   return color;
 };
 
 const getColor4 = function () {
-  let color = [0, 0, 256];
+  let color = [0, 0, 255];
   return color;
 };
 
